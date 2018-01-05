@@ -5,6 +5,6 @@ class Solution:
         :rtype: str
         """
       result = ''
-      for x in range (s.length-1, -1, -1):
+      for x in range (len(s) - 1, -1, -1):
         result = result + s[x]
       return result
